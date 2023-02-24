@@ -51,15 +51,15 @@ Perform next steps:
      docker-compose --env-file .env build
      ```
      This command creates docker images for the application.
- 4. To run container with application built from previous step images :
+ 3. To run  containers , created from images, from the previous step :
 	   ```bash
 		 docker-compose --env-file .env up -d
 	```
- 5.  In browser, navigate to **localhost:5000**:
+ 4.  In browser, navigate to **localhost:5000**:
 ![enter image description here](https://raw.githubusercontent.com/Rayveni/blog/main/articles/flask%20redis/img/app_screen.jpg)
  7. Run background tasks by submitting task parameters in the input form (in implemented background task, the input parameter is returned with a 60 second delay) and review the results (click the **Completed Tasks** link).
 Explanation of the project's source code below.
- 9.  To stop the container and the application:  
+ 9.  To stop the containers and the application:  
 	   ```bash
 	   docker-compose --env-file .env down
 		``` 
@@ -156,12 +156,10 @@ return "prefix___"+task_arg
 ```
 A "toy" job, all the function has to do is wait 60 seconds (to populate our queue) and argument (task_arg) with prefix.
 ##  Closing thoughts
-RQ has its [dashboard monitor](https://python-rq.org/docs/monitoring/) for monitoring queues.
-It can be add as additional Docker service.
-**local_image/flask_rq** can be splitted to image for app and worker.The same applies to the code(mounting **src** folder to app and **tasks** folder to worker)
-
+Next code improvements.
 RQ has its own [dashboard monitor](https://python-rq.org/docs/monitoring/)  for monitoring queues.
 It can be added as an additional Docker service.
+
 **local_image/flask_rq** can be split into images per app and worker. The same goes for the code (mounting the **src** folder for the app and the **tasks** folder for the worker).
 
  
