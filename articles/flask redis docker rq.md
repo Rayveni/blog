@@ -2,7 +2,7 @@
 ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/flask%20redis/img/flask_redis_rq.jpg?raw=true)
 
 This tutorial will walk you through deploying up a basic Flask app using background jobs with the help of Docker containers.<br>
- The Code sample can be downloaded from [Github/Rayveni](https://github.com/Rayveni/blog/tree/main/flask%20redis).
+ The Code sample can be downloaded from [Github](https://github.com/Rayveni/flask_rq_redis)
 ## Table of Contents
 
  - Docker architecture
@@ -44,7 +44,7 @@ Visit [https://www.docker.com/get-started/](https://www.docker.com/get-started/)
 ##  How to start containters and app
 Perform next steps:
 
- 1. Download example code  from [Github/Rayveni](https://github.com/Rayveni/blog/tree/main/flask%20redis)
+ 1. Download example code  from [Github/Rayveni](https://github.com/Rayveni/flask_rq_redis)
  2. Navigate to project folder in terminal and execute:
  ![enter image description here](https://raw.githubusercontent.com/Rayveni/blog/main/articles/flask%20redis/img/terminal-min.png)
      ```bash
