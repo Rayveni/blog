@@ -1,7 +1,8 @@
 ﻿# Asynchronous Tasks with Flask,RQ and Redis in Docker
 ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/flask%20redis/img/flask_redis_rq.jpg?raw=true)
-This tutorial will walk you through deploying up a basic Flask app using background jobs with the help of Docker containers.
- Code template can be downloaded from [github/Rayveni](https://github.com/Rayveni/blog/tree/main/flask%20redis).
+
+This tutorial will walk you through deploying up a basic Flask app using background jobs with the help of Docker containers.<br>
+ The Code sample can be downloaded from [Github/Rayveni](https://github.com/Rayveni/blog/tree/main/flask%20redis).
 ## Table of Contents
 
  - Docker architecture
