@@ -81,18 +81,21 @@ Master host обычно делают в 2ое слабее сегментног
 **Broadcast**  и **Redistribution** достаточно невыгодные операции. Они выполняются при каждом запуске запроса. Рекомендуется избегать их. Увидев в плане запроса такие пункты, стоит обратить внимание на ключи распределения. Также операции distinct и union являются причиной motions.
 
 ## Типы таблиц в GreenPlum
-![enter image description here](https://i.ibb.co/M6rQgqm/1.png)
+![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/greenplum%20express/img/table_types.png?raw=true)
+
 Таблицы в GreenPlum  делятся на:
 
- - **Heap**(унаследованы от Postgres) -подходит для обработки транзакций в реальном времени (OLTP), когда данные в таблицах часто обновляются операциями INSERT, UPDATE и DELETE.  
+ - **Heap**(унаследованы от Postgres) -подходят для обработки транзакций в реальном времени (OLTP), когда данные в таблицах часто обновляются операциями INSERT, UPDATE и DELETE.  
 Используется по умолчанию при создании таблиц.
  - **Append Optimized**-подходят для аналитической обработки больших массивов данных (OLAP), когда данные загружаются большими пакетами и над ними производятся только операции чтения. Операции UPDATE и DELETE не разрешены в Greenplum  над таблицами такого типа.
 
 ### Типы хранения данных
  - строчный- каждая строка хранится как непрерывная запись на диске
- ![enter image description here](https://i.onthe.io/smngoz1f6s0ltqojd.7eae6de1.jpg)
+ ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/greenplum%20express/img/row_store.jpg?raw=true)
+ 
  - колоночный-все ячейки, относящиеся к колонке, как непрерывную запись.t
- Колоночное хранение данных значительно снижает затраты на чтение и запись, когда запрос обращается только к небольшому количеству столбцов из множества всех полей таблицы. Такие таблицы также лучше поддаются сжатию.![enter image description here](https://i.onthe.io/smngoz2c530uatfv8.3cca943d.jpg)
+ Колоночное хранение данных значительно снижает затраты на чтение и запись, когда запрос обращается только к небольшому количеству столбцов из множества всех полей таблицы. Такие таблицы также лучше поддаются сжатию.
+![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/greenplum%20express/img/column_store.jpg?raw=true)
 
 ### Сжатие данных
 Heap таблицы поддреживают только строчный вариант, в то время как AppendOptimized  поддерживают оба(строчный и колоночный).
