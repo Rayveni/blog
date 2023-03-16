@@ -1,7 +1,7 @@
-﻿# How to make a video recorded presentation, lecture, or tutorial  using free software.
-You may occasionally need to make a video presentation for senior managers or impart your knowledge to colleges by creating video course/tutorial/lecture.
+﻿# How to make a video presentation, lecture or tutorial  using free software.
+You may occasionally need to make a video presentation for senior managers or impart your knowledge to colleagues by creating video course/tutorial/lecture.
 
-When I faced with a similar task, have researched  this issue and the approach/solution presented in this guide.
+When I faced with a similar task, I made a research and the approach/solution presented in this guide.
 My **hight-level** requirements were:
 
  1.  Ability to screen & audio record.
@@ -12,7 +12,7 @@ In my opinion, the process of creating a good educational video, lecture or pres
  1. creating a good story
  2. rehearsing plenty to sound  brief and to the point 
 
-This manual doesn't cover the subject of how to "how to create a killer presentation/lecture/tutorial" instead, it focuses on the **technical** aspects of the process. 
+This manual doesn't cover the subject of how to "how to create a killer presentation/lecture/tutorial" .Instead, it focuses on the **technical** aspects of the process. 
 
 ## Contents
 
@@ -33,12 +33,12 @@ To be real, it's extremely difficult to record some content the first time witho
 
 My tips to shorten this activity:
 
- - Spit and **record** content in small chunks (e.g. it can be easily split into slides for a presentation). Because it is much easier to overwrite a small part than  the entire record.(afterwards small chunks can be concatenated in video editing) 
+ - Spit and **record** content in small chunks (e.g. it can be easily split into slides for a presentation). Because it is much easier to overwrite a small part than  the entire record.(afterwards small chunks can be concatenated ) 
  - Make a text of your speech (or at least the main points). Reading from a second monitor or a part of the screen is much simpler than doing it from memory(improvisations are not welcome).
 
 Both hints (splitting and reading pre-prepared text) saved me a lot of time.
 
-As for the **recording software**, I recommend using OBS studio, which is the industry standard for streaming and recording.
+As for the **recording software**, I recommend using OBS studio, which is the standard for streaming and recording.
 ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/video%20record%20tutorial/obs.jpg?raw=true)(https://obsproject.com/)
 Of course, if you only want to record a voice-over for a PowerPoint presentation, you can use the built-in recorder in PowerPoint. However, OBS is much more flexible, can be used in a variety of scenarios, and has an intuitive  UI.
 
@@ -60,8 +60,6 @@ Lets create 2 scenes to cover most use case scenarios:
 - **windows capture**  to capture demonstrations of some desktop applications without modal pop-up windows(e,g, PowerPoint).This method is typically much more effective because it records only application screen without interference of Windows Controls or other apps and  allows to open for reading purpose text file while the recording is being made without seeing it on result video.
 ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/video%20record%20tutorial/obs2.jpg?raw=true)
 
-2. Add sources like audio and display capture.
-3. Check the configurations for each source by clicking on it (see screenshot below). If you have multiple monitors, make sure the correct monitor is selected for Display Capture, and the right audio device is found for Audio Capture.
 To create **screen capture**:
 
  1. create Scene
@@ -69,24 +67,18 @@ To create **screen capture**:
  3. Check the configurations for each source by clicking on it (see screenshot below).For Display Capture be sure that correct monitor selected(in case you have multiple monitors)  and the right audio device is found for Audio Capture.
 
 ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/video%20record%20tutorial/obs3.jpg?raw=true)
-
-
-, and the window of the application you wish to record should be selected in the configuration section. g. Launch presentation/read mode to hide edit controls before starting a PowerPoint recording, I advise.
-
-Simply add a video capture device to your recording to include your camera.
  
- The same steps applied for **window capture** creation; however, *window capture* should be used in place of *display capture* and in config section window of application ,which you want to record,(e.g. for PowerPoint recording, I recommend to launch presentation/read mode to hide edit controls) should be chosen.
+ The same steps applied for **window capture** creation; however, *window capture* should be used in place of *display capture* (source section) and in config section window of application ,which you want to record,(e.g. for PowerPoint recording, I recommend to launch presentation/read mode to hide edit controls) should be chosen.
 
 To add your presence, use  **video capture device**.
  
 ## Video editing
 
-As I mentioned at beginning i need following features:
+As I mentioned at the beginning, I need the following functionality:
+ - Trim video.
+ - Concatenate several videos.
 
- - Trim video
- - Concatenate several videos
-
-So my choose was movie maker, cause of:
+So my choice was movie maker, cause of:
  - its free
  - lightweight
  - added to the Windows Store as trusted software**
@@ -97,26 +89,26 @@ How to use:
  1. Launch movie maker.
  2. Create a new project.
  3. Add  videos  (select **End of Project Mode)**![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/video%20record%20tutorial/moviemaker1.jpg?raw=true)
- 4. One screenshot  4 video clips added ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/video%20record%20tutorial/moviemaker2.jpg?raw=true)
+ ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/video%20record%20tutorial/moviemaker2.jpg?raw=true)
  5. Select each clip and click **More tools** button to trim video(if you need it).
  6. To  save video  click **save video** icon ( the bottom of the UI)
  7. Deny saving project(its for payed version).
  8. Save in mp4 format.
 
 ## Video enhancement 
-To make our perfect we can:
+To make our video perfect we can:
 
  - enhance audio quality
  - compress video(lower size- faster load)
 
 Free AI tool from Adobe  can help us with audio enhancement
- (noise remove, making record close to studio quality)
+ (noise removing, making record close to studio quality)
 https://podcast.adobe.com/enhance
 
 The mp4 file extension works well with Adobe Enhance despite the fact that mp3 files are required.
 
 Next step in replacement original audio track with enhanced one.
-For this purpose I used python (anaconda distributive) package **moviepy**.
+For this purpose I used python's (anaconda distributive) package **moviepy**.
 
 Installation:
 ```bash
