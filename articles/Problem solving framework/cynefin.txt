@@ -1,0 +1,212 @@
+n Framework
+
+Cyost
+
+
+
+Repeating pattems and
+consistent events
+
+Clear cause-and-effect
+relationships evident to every-one;
+ right answer exists.
+
+Keown knowns.
+Factbased management
+----
+Expert diagnosis required
+
+Cause-and-effect relatonships
+discoverable but not immediately
+apparent to everyone; more than
+one right answer possible
+
+Keown unknowns
+
+Fact-based management
+---
+Flux and unpredictability
+
+No ight answers; emergent
+instructive patterns
+
+Unknown unknowns.
+Many compateting ideas
+
+A nesd for creative and innovative 
+approaches
+
+Pattern-based leadership
+---
+High turbulence
+
+No clear cause-and-effect relationships,
+so no point looking for right answers
+Unknowables
+
+Many decisionsto make and no
+time to think
+
+High tension
+Pattern-based leadership
+---
+THE LEADER'S JOB
+
+Sense, categorize, respond
+Ensure that proper processes are
+in place
+
+Delegate
+
+Usa best practices
+Communicate in clear,direct ways
+Understand that extensive
+interactive commurication may
+not be necessary
+---
+Sense, analyze, respond
+Create panels of experts
+Listen to conficting advice
+--
+Probe, sense, respond
+Create environments and
+experiments that allow patterns
+to emerge
+
+Increase levels of interaction and
+communication
+
+Use methods that can help generate 
+ideas: Open up discusson (as
+though large group methods):
+set barrirs; stimulate attractors:
+encourage dissent and diversity;
+and manage starting conditions.
+and monitor for emergence
+--
+Act sense, respond
+Look for what works instead of
+seakight right answers
+
+Take immediate action to
+reestablish order (command and
+control)
+
+Provide cler, direct
+communication
+--
+DANGER SIGNALS
+--
+Complacency and comfort
+Desire to make complex
+problems simple
+
+Entrained thinking
+
+No challenge of received wisdom
+
+Overreliance on best practice if
+context shifts
+--
+Experts overconfident in their
+own solutions or in the efficacy of
+past solutions
+
+Analysis paralysis
+
+Expert panels
+
+Viewpoints of noexperts
+excluded
+--
+Temptation to fall back into
+habitual, command-and-contol
+mode
+
+Temptation to look for facts
+rather than allowing patterns to
+emerge
+
+Desire for accelerated resolution
+of problems of exploitation of
+opportunites
+--
+Appling a command-and-control
+approach longer than needed
+“Cult of the leader”
+
+Missed opportunity for innovation
+Chaos unabated
+--
+RESPONSE TO
+DANGER SIGNALS
+--
+Create communication
+channels to challenge orthodoxy
+Stay comected without
+micromanagement
+
+Don't assume things
+are simple
+
+Recognize both the value and
+the limitations of best practice
+---
+Encourage external and internal
+stakeholders to challenge expert
+opinions to combat entrained
+thinking
+
+Use experiments and games to
+forcs people to think outside the
+familiar
+--
+Be patient and slow time for
+reflecton
+
+Use approaches that
+encourage interaction so
+patterns can emerge
+--
+Setup mechanisms (such as
+parallel teams) to take advantage
+of opportunites afforded by a
+chaotic environment
+
+Encourage advisers to challenge
+your point of view once the crisis
+bas abated
+
+Work to shift he context from
+chaotic to complex
+--
+Applied to Story Splitting
+
+Simple/Obvious -
+
+Just build it. Or, if it’s too big,
+find all the stories, and do the
+most valuable ones first.
+--
+Complicated — Find all the
+stories, and do the most
+valuable and/or most risky
+ones first.
+--
+Complex — Don’t try to find all
+the stories. Find one or two
+that will provide some value
+and teach you something
+about the problem and
+solution, build those and use
+what you learn to find the rest.
+--
+Chaotic — Put out the fire;
+splitting stories probably isn’t
+important right now.
+---
+Disordered — Figure out which
+
+domain you're in before splitting so
+you don’t take the wrong approach.
+
