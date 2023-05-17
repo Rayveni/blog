@@ -1,5 +1,5 @@
 ﻿# Initiation
-A well-planned initiation results in a strong foundation for your project, and sets it up for success.
+Your project will have a solid foundation and a better chance of success with a well-planned initiation.
 
 -   **Goals:**   determine what to do and try to achieve it.
 -   **Scope**: define the work to complete the project.
@@ -8,7 +8,7 @@ A well-planned initiation results in a strong foundation for your project, and s
 -   **Stakeholders:** Decision makers, who determine the above four components. It is important to understand their needs and ensure that all of them agree with the goals.
 -   **Resources**. Carefully consider budget, people, materials, and other items.
 
-Finally,  goals, scope,deliverables, success criteria, stakeholders, and resources have been  established ,it's time to create a **project charter**.
+Finally, when  goals, scope,deliverables, success criteria, stakeholders, and resources have been  established ,it's time to create a **project charter**.
 
 A **project charter** is a document that contains all the details of the project and should be reviwed/discussed with key stakeholders  to move into the planning stage.
 
@@ -100,9 +100,9 @@ Considering yearly inflation of 5%, what will the current value be?
 -   **Attainable:** The project team agrees the objective is realistic.
 -   **Relevant:** The goal fits the organization’s strategic plan and supports the project charter.
 -   **Time-bound:** The project team documents a date to achieve the goal.
-In this example, your **specific** goal is to attain a  Google Career Certificate. You can make this goal **attainable** by deciding that you will complete one course per month. This goal is **relevant** because it supports your desire to make a career change. Finally, you can make this goal **time-bound** by deciding that you will complete the program within six months.
+In this example, your **specific** goal is to attain a  Career Certificate. You can make this goal **attainable** by deciding that you will complete one course per month. This goal is **relevant** because it supports your desire to make a career change. Finally, you can make this goal **time-bound** by deciding that you will complete the program within six months.
 
-After defining each of these components, your SMART goal then becomes: Obtain a Google Career Certificate by taking one course per month within the next six months.
+After defining each of these components, your SMART goal then becomes: Obtain a Career Certificate by taking one course per month within the next six months.
 Be specific in your answers. For instance, the plant care app SMART goal is:
 
 -   **Specific:** The team knows what they’re building: an app that helps users care for their plants and reminds them to do so.
@@ -140,6 +140,15 @@ Strong **key results** meet the following criteria:
 -   Measurable and verifiable    
 -   Specific and time-bound
 -   Aggressive yet realistic
+
+#### Committed vs. aspirational OKRs
+
+OKRs have two variants, and it is important to differentiate between them:
+**Commitments** are OKRs that we agree will be achieved, and we will be willing to adjust schedules and resources to ensure that they are delivered.
+-   The expected score for a committed OKR is 1.0; a score of less than 1.0 requires explanation for the miss, as it shows errors in planning and/or execution.
+
+By contrast, **aspirational** OKRs express how we’d like the world to look, even though we have no clear idea how to get there and/or the resources necessary to deliver the OKR.
+-   **Aspirational** OKRs have an expected average score of 0.7, with high variance.
 ### OKR development best practices
 
 Here are some best practices to keep in mind when writing OKRs:
@@ -148,12 +157,10 @@ Here are some best practices to keep in mind when writing OKRs:
 -   As a general rule, try to develop around 2–3 key results for each objective.  
 -   Be sure to document your OKRs and link to them in your project plan.
 
+useful materials:
 -   [Google’s OKR playbook](https://www.whatmatters.com/resources/google-okr-playbook/)
-    
 -   [Planning company goals](https://asana.com/guide/examples/project-management/goals-okrs-planning)
-    
 -   [OKRs and SMART goals: What's the difference?](https://www.whatmatters.com/resources/okrs-smart-goals-difference-between/)
-    
 -   [OKRs and KPIs: What They Are and How They Work Together](https://www.reflektive.com/blog/okrs-and-kpis-what-they-are-and-how-they-work-together/)
 -   [How OKR and project management work together](https://www.perdoo.com/resources/okr-and-project-management/)    
 -   [OKR Examples](https://www.workfront.com/strategic-planning/goals/okr/okr-examples)    
@@ -161,10 +168,11 @@ Here are some best practices to keep in mind when writing OKRs:
 
 ## Scope
 Scope -part of triangle (scope,budget,time), your project scope includes the boundaries of a project.
-The way of definition:"an agreed upon understanding as to what is included or excluded from a project."
+The way of definition: "an agreed upon understanding as to what is included or excluded from a project."
 
 Make sure you understand the **_who_, _what_, _when_, _where_, _why_, and _how_**  as it applies to the scope.
 
+### Asking scope-defining questions
 - stakeholders
 - goals
 - deliverables
@@ -187,7 +195,8 @@ Here are some best practices for scope management and controlling scope creep:
 -   **Set up a change control process.** During the course of your project, some changes are inevitable. Determine the process for how each change will be defined, reviewed, and approved (or rejected) before you add it to your project plan. Make sure your project team is aware of this process.
 -   **Learn how to say no.** Sometimes you will have to say no to proposed changes. Saying no to a key stakeholder or customer can be uncomfortable, but it can be necessary to protect your project’s scope and its overall quality. If you are asked to take on additional tasks, explain how they will interfere with the budget, timeline, and/or resources defined in your initial project requirements.
 -   **Collect costs for out-of-scope work.** If out-of-scope work is required, be sure to  document all costs incurred. That includes costs for work indirectly impacted by the increased scope. Be sure to indicate what the charges are for.
-
+### Triple Constraint
+![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/project_initiation/img/triangle.png?raw=true)
 ## Success criteria
 Launching your project to the client can be a very big moment for you.
  You handed over the project to your client and now you can take a step back and breathe. 
@@ -214,30 +223,7 @@ your project’s success criteria, it’s important to:
    - measure your OKRs’ progress by scoring them
    - track your OKRs’ progress by scheduling regular check-ins with your team.
 
-## Resources
-### Team
-
- - Roles 
- - Team size
- - Skills 
- - Availability 
- - Motivation
-
-### Roles
-- ** Project manager** is responsible for the overall success of the team, and ultimately, the project as a whole. 
-- **Project sponsor** is the person who is accountable for the project and who ensures the project delivers the agreed upon value to the business.(director of product)
-- **Team members** are the heart of the operation.
-They're the people doing the day to day work and making the project happen.
-- **The customers** are the people who will get some sort of value from a successfully.You can think of them as the buyers of the project.
-
-Roles selections
--   Who were the members of your team?
--   Which role (or roles) did each person fill?
--   Were project roles formally assigned or informally filled?
--   What role did you play?
--   How did each project role help or hinder the project’s outcome?
-
- #### Stakeholders
+ ## Stakeholders
 -   The primary ones benefit directly from the project.
 -   The secondary ones are indirectly impacted.
 -   Primary and secondary stakeholders help define the goals and outcomes.
@@ -258,7 +244,31 @@ Roles selections
 -   What information or insights do you have that might be challenging for me to find?
 -   Where do you see me getting support for this initiative? Facing resistance?
 -   What additional thoughts/questions do you have?
+## Resources
+-   **Team**: the cost of the people performing the work
+-   **Services**: any outside vendors helping your project
+-   **Materials**: any tangible items purchased to complete the project
+### Team
 
+ - Roles 
+ - Team size
+ - Skills 
+ - Availability 
+ - Motivation
+
+#### Roles
+-   **Project manager** is responsible for the overall success of the team, and ultimately, the project as a whole. 
+- **Project sponsor** is the person who is accountable for the project and who ensures the project delivers the agreed upon value to the business.(director of product)
+- **Team members** are the heart of the operation.
+They're the people doing the day to day work and making the project happen.
+- **The customers** are the people who will get some sort of value from a successfully.You can think of them as the buyers of the project.
+
+Roles selections
+-   Who were the members of your team?
+-   Which role (or roles) did each person fill?
+-   Were project roles formally assigned or informally filled?
+-   What role did you play?
+-   How did each project role help or hinder the project’s outcome?
 #### RACI
 ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/project_initiation/img/raci.jpg?raw=true)
 
@@ -277,10 +287,8 @@ Steps for creating a RACI chart:
 -   The same person can be accountable and responsible.
 
 Doing a RACI early on will prevent issues due to role confusion. This will ensure the success of the project.
-## Resources
--   **Team**: the cost of the people performing the work
--   **Services**: any outside vendors helping your project
--   **Materials**: any tangible items purchased to complete the project
+
+
 ## Documentation
 Two types of documentation track details and keep your stakeholders informed: **project proposal** and **project charter**.
 -   A proposal helps in understanding the goals and impacts; a charter helps in getting organized and set-up plans.
@@ -293,7 +301,8 @@ Two types of documentation track details and keep your stakeholders informed: **
 
 The project manager reviews and develops the charter, adapting to its audiences and the stakeholders' needs throughout the process.
 
-**project charter** clearly defines the project and outlines the necessary details for the project to reach its goals. 
+### project charter
+ clearly defines the project and outlines the necessary details for the project to reach its goals. 
 ![enter image description here](https://github.com/Rayveni/blog/blob/main/articles/project_initiation/img/charter.jpg?raw=true)
 The charter is the formal way that the project’s goals, values, benefits, and details are captured. You can think of the charter as the compass for your project since  you will use it throughout the life cycle of the project. Many stakeholders will look to your project charter to ensure that you are indeed aligned with strategic goals and set up for achieving the desired end goal. Since the project charter carries so much importance, it is important to incorporate the right amount of detail while omitting miscellaneous elements.
 
